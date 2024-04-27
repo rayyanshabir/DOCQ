@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="Image/png" href="./IMAGES/DOCQ LOGO.jpg">
+    <title>Intern Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo1"><img src="./IMAGES/DOCQ LOGO.jpg" alt="DOC-Q"></div>
+        <h1>Intern Portal</h1>
+        <div class="center-text">
+            <h6><span class="red-text">Attention all users:</span> Your unique Inten IDs are ready for pickup! Check your inbox <img src="./IMAGES/gmail.jpeg" class="gml"> now to find yours!</h6>
+        </div>
+        
+        <form id="idForm">
+            <label for="uniqueId">Enter Your Unique ID:</label>
+            <input type="text" id="uniqueId" name="uniqueId" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="internInfo" style="display: none;">
+            <h2>Intern Information</h2>
+            <p><strong>Name:</strong> <span id="internName"></span></p>
+            <p><strong>Contact Info:</strong> <span id="contactInfo"></span></p>
+            <p><strong>Role:</strong> <span id="role"></span></p>
+            <p><strong>Performance:</strong> <span id="performance"></span></p>
+            <p><strong>Documents:</strong> <a id="documentsLink" href="#" target="_blank">View Documents</a></p>
+            <button id="helpButton">Get Help</button>
+        </div>
+    </div>
+
+    <footer>
+        <p> A new system to showcase your performance every week. It's a fantastic opportunity to celebrate your hard work and keep our momentum strong.
+             Make sure to join every meeting, respond promptly, and complete mandatory tasks to keep our performance at its peak. "Together, let's aim for excellence!"</p>
+        <p>&copy; 2024 DOC-Q INTERN PORTAL. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
